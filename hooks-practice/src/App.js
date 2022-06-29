@@ -1,10 +1,11 @@
 import './App.css';
-import { Transition } from './components';
+import { DeferredValue, Transition } from './components';
 
 function App() {
   return (
     <div className="App">
-      <Transition />
+      {/* <Transition /> */}
+      <DeferredValue />
     </div>
   );
 }
