@@ -1,5 +1,5 @@
 import "./App.css";
-import { DeferredValue, Effect, States, Transition } from "./components";
+import { DeferredValue, Effect, Ref, States, Transition } from "./components";
 
 function App() {
   return (
@@ -7,7 +7,8 @@ function App() {
       {/* <Transition /> */}
       {/* <DeferredValue /> */}
       {/* <Effect /> */}
-      <States />
+      {/* <States /> */}
+      <Ref />
     </div>
   );
 }
