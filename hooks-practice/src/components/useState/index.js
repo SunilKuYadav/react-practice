@@ -1,2 +1,2 @@
-export { default as State } from "./1_Problem";
-// export {default as State} from './1_Solution'
+// export { default as States } from "./1_Problem";
+export { default as States } from "./1_Solution";
