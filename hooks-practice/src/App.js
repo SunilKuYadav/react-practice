@@ -1,5 +1,6 @@
 import "./App.css";
 import {
+  Callback,
   DeferredValue,
   Effect,
   Memo,
@@ -16,7 +17,8 @@ function App() {
       {/* <Effect /> */}
       {/* <States /> */}
       {/* <Ref /> */}
-      <Memo />
+      {/* <Memo /> */}
+      <Callback />
     </div>
   );
 }
