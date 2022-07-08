@@ -5,5 +5,6 @@ import { States } from "./useState";
 import { Ref } from "./useRef";
 import { Memo } from "./useMemo";
 import { Callback } from "./useCallback";
+import { LayoutEffect } from './useLayoutEffect'
 
-export { Transition, DeferredValue, Effect, States, Ref, Memo, Callback };
+export { Transition, DeferredValue, Effect, States, Ref, Memo, Callback, LayoutEffect };

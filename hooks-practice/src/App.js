@@ -3,6 +3,7 @@ import {
   Callback,
   DeferredValue,
   Effect,
+  LayoutEffect,
   Memo,
   Ref,
   States,
@@ -18,7 +19,8 @@ function App() {
       {/* <States /> */}
       {/* <Ref /> */}
       {/* <Memo /> */}
-      <Callback />
+      {/* <Callback /> */}
+      <LayoutEffect />
     </div>
   );
 }
