@@ -10,6 +10,7 @@ import {
   DeferredValue,
   Transition,
   CustomeHooks,
+  Reducer,
 } from "./components";
 
 function App() {
@@ -23,8 +24,9 @@ function App() {
       {/* <Memo /> */}
       {/* <Callback /> */}
       {/* <LayoutEffect /> */}
-      <ImperativeHandle />
+      {/* <ImperativeHandle /> */}
       {/* <CustomeHooks /> */}
+      <Reducer />
     </div>
   );
 }

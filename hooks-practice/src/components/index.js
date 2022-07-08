@@ -8,6 +8,7 @@ import { Callback } from "./useCallback";
 import { LayoutEffect } from "./useLayoutEffect";
 import { ImperativeHandle } from "./useImperativeHandle";
 import { CustomeHooks } from "./customeHooks";
+import { Reducer } from "./useReducer";
 
 export {
   Transition,
@@ -20,4 +21,5 @@ export {
   LayoutEffect,
   ImperativeHandle,
   CustomeHooks,
+  Reducer,
 };
