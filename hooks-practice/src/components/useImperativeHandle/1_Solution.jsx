@@ -1,5 +1,5 @@
 import React from "react";
-import { useRef, useState, forwardRef } from "react";
+import { useRef, useState, forwardRef, useImperativeHandle } from "react";
 
 const ImperativeHandle = () => {
   const [value, setValue] = useState("Mobcoder");
@@ -11,13 +11,18 @@ const ImperativeHandle = () => {
         value={value}
         onChange={(e) => setValue(e.target.value)}
       />
-      <button onClick={() => inputRef.current.focus()}>Focus</button>
+      <button onClick={() => inputRef.current.helloMob()}>Focus</button>
     </>
   );
 };
 
 export default ImperativeHandle;
 
-const CustomInput = forwardRef(({ style, ...props }, ref) => (
-  <input {...props} ref={ref} />
-));
+// const CustomInput = forwardRef(({ style, ...props }, ref) => (
+//   <input {...props} ref={ref} />
+// ));
+
+const CustomInput = forwardRef(({ style, ...props }, ref) => {
+  useImperativeHandle(ref, () => ({ helloMob: () => alert(props.value) }), []);
+  return <input {...props} ref={ref} />;
+});

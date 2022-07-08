@@ -23,8 +23,8 @@ function App() {
       {/* <Memo /> */}
       {/* <Callback /> */}
       {/* <LayoutEffect /> */}
-      {/* <ImperativeHandle /> */}
-      <CustomeHooks />
+      <ImperativeHandle />
+      {/* <CustomeHooks /> */}
     </div>
   );
 }
