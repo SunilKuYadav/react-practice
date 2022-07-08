@@ -11,7 +11,7 @@ import {
   Transition,
   CustomeHooks,
   Reducer,
-} from "./components";
+} from "./hooks";
 
 function App() {
   return (
