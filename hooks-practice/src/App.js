@@ -2,8 +2,10 @@ import "./App.css";
 import {
   States,
   Effect,
-  Ref,
+  ImperativeHandle,
+  LayoutEffect,
   Memo,
+  Ref,
   Callback,
   DeferredValue,
   Transition,
@@ -20,6 +22,8 @@ function App() {
       {/* <Ref /> */}
       {/* <Memo /> */}
       {/* <Callback /> */}
+      {/* <LayoutEffect /> */}
+      {/* <ImperativeHandle /> */}
       <CustomeHooks />
     </div>
   );
