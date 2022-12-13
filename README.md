@@ -1,2 +1,2 @@
 # react-practice
-This repository contain practice code example of react
+This repository contain practice code examples of react
